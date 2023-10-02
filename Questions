@@ -1,0 +1,48 @@
+Best practice questions in React can help you ensure that you are following recommended patterns and guidelines while developing React applications. Here are some common best practice questions related to React:
+
+1. **Do you use functional components over class components when possible?**
+   - Functional components are preferred over class components in most cases due to their simplicity and the introduction of hooks in React.
+
+2. **Are you using hooks to manage component state and side effects?**
+   - Hooks like `useState` and `useEffect` simplify state management and side effect handling in functional components.
+
+3. **Are you using PropTypes or TypeScript for type checking your props?**
+   - It's a good practice to define the expected prop types for your components to catch potential errors during development.
+
+4. **Do you avoid directly mutating the state in React?**
+   - State should be treated as immutable in React. Always use the `setState` function or `useState` setter to update state.
+
+5. **Are you avoiding unnecessary re-renders?**
+   - Use techniques like memoization or the `useMemo` and `useCallback` hooks to prevent unnecessary re-renders of components.
+
+6. **Do you follow a consistent folder structure and naming convention for your components?**
+   - Establish a clear and consistent folder structure for your components to improve code organization and maintainability.
+
+7. **Are you splitting your application into smaller, reusable components?**
+   - Break down your UI into smaller, reusable components to promote code reusability and maintainability.
+
+8. **Are you using keys when rendering lists of components?**
+   - Always assign unique keys to elements when rendering lists to optimize performance and avoid rendering issues.
+
+9. **Do you handle errors gracefully using error boundaries?**
+   - Implement error boundaries in your application to prevent crashes and display user-friendly error messages.
+
+10. **Are you using a state management library like Redux or the Context API for global state when necessary?**
+    - For complex state management needs, consider using state management libraries or the Context API to maintain a global state.
+
+11. **Are you writing unit tests for your components and application logic?**
+    - Implement testing practices using libraries like Jest and React Testing Library to ensure the reliability of your code.
+
+12. **Do you optimize performance with tools like React.memo and shouldComponentUpdate?**
+    - Utilize `React.memo` for functional components and `shouldComponentUpdate` for class components to optimize rendering.
+
+13. **Are you considering server-side rendering (SSR) for SEO and initial load performance?**
+    - Evaluate whether server-side rendering is appropriate for your application's SEO and initial load performance needs.
+
+14. **Are you staying up-to-date with the latest React updates and best practices?**
+    - Keep an eye on the official React documentation and community resources to stay current with best practices and updates.
+
+15. **Are you using a linter and code formatter to maintain code consistency?**
+    - Set up a linter like ESLint and a code formatter like Prettier to ensure code consistency and catch potential issues.
+
+These best practice questions can serve as a checklist to help you ensure that your React applications are developed following recommended guidelines, improving code quality, maintainability, and performance.
